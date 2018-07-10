@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple front end starter kit with pug, sass and gulp",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "gulp"
   },
   "author": "Lucas de Brito Arruda",
   "license": "MIT",

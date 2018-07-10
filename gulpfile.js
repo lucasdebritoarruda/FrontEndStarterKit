@@ -30,5 +30,3 @@ gulp.task('pug', function(){
 });
 
 gulp.task('default',['serve']);
-
-
