@@ -26,7 +26,7 @@ gulp.task('sass', function(){
 
 gulp.task('pug', function(){
 	return gulp.src('./assets/views/*.pug')
-	.pipe(pug())
+	.pipe(pug({pretty: true}))
 	.pipe(gulp.dest('./'))
 	.pipe(browserSync.stream());
 });
