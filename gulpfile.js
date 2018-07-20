@@ -20,7 +20,7 @@ gulp.task('sass', function(){
 	return gulp.src('./assets/sass/*.scss')
 	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
 	.pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
-	.pipe(gulp.dest('./public/css'))
+	.pipe(gulp.dest('./'))
 	.pipe(browserSync.stream());
 });
 
