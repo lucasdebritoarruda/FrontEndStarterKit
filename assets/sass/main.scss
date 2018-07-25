@@ -1,7 +1,11 @@
-@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: blue;
+}
+
+.col-xl-12, .col-lg-12{
+  background-image: linear-gradient(to right top, #ffef00, #ffc300, #ff9400, #ff6000, #f20303);
+  height: 1000px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
