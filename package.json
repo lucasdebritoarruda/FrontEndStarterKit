@@ -14,6 +14,7 @@
     "gulp-sass": "^4.0.1"
   },
   "dependencies": {
-    "browser-sync": "^2.24.4"
+    "browser-sync": "^2.24.4",
+    "gulp-cssimport": "^6.0.1"
   }
 }
